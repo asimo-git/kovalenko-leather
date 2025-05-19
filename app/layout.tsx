@@ -1,0 +1,34 @@
+import type { Metadata } from "next";
+import { Rubik, Noto_Serif } from "next/font/google";
+import "./globals.css";
+
+const sansSerifFont = Rubik({
+  variable: "--font-sans-serif",
+  subsets: ["cyrillic"],
+});
+
+const serifFont = Noto_Serif({
+  variable: "--font-serif",
+  subsets: ["cyrillic"],
+});
+
+export const metadata: Metadata = {
+  title: "Кожаная Мастерская Павла Коваленко",
+  description: "Изделия из кожи, реставрация мебели и автосалона",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${sansSerifFont.variable} ${serifFont.variable} antialiased`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
