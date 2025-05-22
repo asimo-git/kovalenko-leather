@@ -1,9 +1,14 @@
 export default function Home() {
   return (
-    <div>
-      <header className="header">Кожаная Мастерская Павла Коваленко</header>
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start"></main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
-    </div>
+    <section>
+      <h2 className="text-3xl font-serif mb-4">
+        Изделия из кожи и реставрация
+      </h2>
+      <p>
+        Мы предлагаем услуги по перетяжке мебели, реставрации салонов
+        автомобилей, изготовлению подушек и аксессуаров из кожи. Работаем по
+        выезду в нескольких городах.
+      </p>
+    </section>
   );
 }

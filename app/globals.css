@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 @theme {
   --color-primary: #110b05;
@@ -12,5 +13,9 @@
 @layer base {
   body {
     @apply bg-background text-foreground font-sans;
+  }
+
+  button {
+    @apply cursor-pointer;
   }
 }

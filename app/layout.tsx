@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rubik, Noto_Serif } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
 
 const sansSerifFont = Rubik({
   variable: "--font-sans-serif",
@@ -25,9 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sansSerifFont.variable} ${serifFont.variable} antialiased`}
+        className={`${sansSerifFont.variable} ${serifFont.variable} antialiased min-h-screen flex flex-col`}
       >
-        {children}
+        <Header />
+        <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
       </body>
     </html>
   );
