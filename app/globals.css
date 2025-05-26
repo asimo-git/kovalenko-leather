@@ -6,6 +6,7 @@
   --color-background: #311d10;
   --color-accent: #8c4b2d;
   --color-foreground: #dab484;
+  --color-banner: #663c1a;
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
 }
@@ -17,5 +18,13 @@
 
   button {
     @apply cursor-pointer;
+  }
+
+  .subtitle {
+    @apply text-5xl font-serif mb-10;
+  }
+
+  .section {
+    @apply flex flex-col justify-center items-center p-6;
   }
 }

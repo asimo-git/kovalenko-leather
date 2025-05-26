@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${sansSerifFont.variable} ${serifFont.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
-        <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+        <main className="flex-1">{children}</main>
       </body>
     </html>
   );

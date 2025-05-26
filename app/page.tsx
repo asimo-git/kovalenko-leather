@@ -1,14 +1,17 @@
+import Banner from "./components/Banner";
+import About from "./components/About";
+import Services from "./components/Services";
+import Advantages from "./components/Advantages";
+import Contacts from "./components/Contacts";
+
 export default function Home() {
   return (
-    <section>
-      <h2 className="text-3xl font-serif mb-4">
-        Изделия из кожи и реставрация
-      </h2>
-      <p>
-        Мы предлагаем услуги по перетяжке мебели, реставрации салонов
-        автомобилей, изготовлению подушек и аксессуаров из кожи. Работаем по
-        выезду в нескольких городах.
-      </p>
-    </section>
+    <>
+      <Banner />
+      <About />
+      <Services />
+      <Advantages />
+      <Contacts />
+    </>
   );
 }

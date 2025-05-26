@@ -52,7 +52,7 @@ export default function Navigation() {
               <MenuIcon className="h-6 w-6" />
             </button>
           </SheetTrigger>
-          <SheetContent side="right" className={cn("bg-primary", "p-2")}>
+          <SheetContent side="right" className="bg-primary p-2 w-[200px]">
             <SheetHeader>
               <SheetTitle className="sr-only">Навигация</SheetTitle>
             </SheetHeader>
