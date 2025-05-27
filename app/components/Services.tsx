@@ -5,6 +5,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
+import { services } from "../data/data";
 
 export default function Services() {
   return (
@@ -12,28 +13,7 @@ export default function Services() {
       <section className="section">
         <h2 className="subtitle">Что я делаю</h2>
         <div className="flex  flex-wrap gap-6 justify-center w-full max-w-6xl">
-          {[
-            {
-              src: "/2.png",
-              alt: "кожаное кресло",
-              title: "Перетяжка мягкой мебели",
-              description:
-                "Аккуратный демонтаж и профессиональный монтаж новой обивки",
-            },
-            {
-              src: "/3.png",
-              alt: "автомобильное кресло",
-              title: "Перетяжка салона автомобиля",
-              description:
-                "Перетяжка сидений, дверных карт, рулей, потолков и подлокотников",
-            },
-            {
-              src: "/1.png",
-              alt: "кожаная подушка",
-              title: "Индивидуальные кожаные подушки",
-              description: "Интерьерный элемент с вышивкой под заказ",
-            },
-          ].map(({ src, alt, title, description }) => (
+          {services.map(({ src, alt, title, description }) => (
             <Card
               key={title}
               className="flex flex-col w-[350px] h-[460px] rounded-xl overflow-hidden"
