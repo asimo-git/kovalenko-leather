@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Services() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center p-6">
+      <section className="section">
         <h2 className="subtitle">Что я делаю</h2>
         <div className="flex  flex-wrap gap-6 justify-center w-full max-w-6xl">
           {[
