@@ -3,6 +3,7 @@ import { Rubik, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const sansSerifFont = Rubik({
   variable: "--font-sans-serif",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="flex-1">{children}</main>
+        <ScrollToTopButton />
         <Footer />
       </body>
     </html>
