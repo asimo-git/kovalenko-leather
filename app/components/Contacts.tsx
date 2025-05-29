@@ -1,16 +1,19 @@
+import Image from "next/image";
+
 export default function Contacts() {
   return (
     <>
       <section className="section">
         <h2 className="subtitle">Как со мной связаться?</h2>
         <div>
-          Вы можете позвонить или написать в мессенджер. Я на связи с 8-00 до
-          22-00 MSK и с удовольствием проконсультирую вас по всем вопросам.
+          Вы можете позвонить или написать в любой из мессенджеров. Я на связи с
+          8-00 до 22-00 MSK и с удовольствием проконсультирую вас по всем
+          вопросам.
         </div>
         <div className="bg-muted/40 p-6 rounded-xl shadow-md w-full max-w-md text-center space-y-4">
           <p className="text-xl font-medium">+7 (000) 000-00-00</p>
 
-          <ul className="flex justify-center gap-4 text-sm sm:text-base">
+          <ul className="flex justify-center gap-10 text-sm sm:text-base">
             <li>
               <a
                 href="https://t.me/username"
@@ -20,6 +23,13 @@ export default function Contacts() {
               >
                 Telegram
               </a>
+              <Image
+                src="/qr-telegram.png"
+                alt="QR Telegram"
+                width={120}
+                height={120}
+                className="mt-2"
+              />
             </li>
             <li>
               <a
@@ -30,6 +40,13 @@ export default function Contacts() {
               >
                 WhatsApp
               </a>
+              <Image
+                src="/qr-whatsapp.png"
+                alt="QR WhatsApp"
+                width={120}
+                height={120}
+                className="mt-2"
+              />
             </li>
             <li>
               <a
@@ -38,6 +55,13 @@ export default function Contacts() {
               >
                 Viber
               </a>
+              <Image
+                src="/qr-viber.png"
+                alt="QR Viber"
+                width={120}
+                height={120}
+                className="mt-2"
+              />
             </li>
           </ul>
         </div>
