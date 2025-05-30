@@ -1,12 +1,12 @@
 export default function Banner() {
   return (
     <>
-      <section className="relative h-[60vh] bg-banner bg-[url('/banner.png')] bg-contain bg-right bg-no-repeat">
-        <div className="p-8 max-w-2xl">
-          <h1 className="text-6xl font-serif mb-10">
+      <section className="relative  bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat text-foreground ">
+        <div className="p-10 sm:p-14 max-w-2xl ml-auto mr-4 sm:mr-10">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif mb-6 sm:mb-10 leading-tight drop-shadow-lg">
             Изделия из кожи и реставрация
           </h1>
-          <p className="text-3xl">
+          <p className="text-lg sm:text-xl lg:text-2xl drop-shadow-md">
             Услуги по перетяжке мебели, реставрации салонов автомобилей,
             изготовлению подушек и аксессуаров из кожи.
           </p>
