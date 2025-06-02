@@ -2,11 +2,11 @@
 @import "tw-animate-css";
 
 @theme {
-  --color-primary: #110b05;
-  --color-background: #311d10;
-  --color-accent: #8c4b2d;
-  --color-foreground: #dab484;
-  --color-banner: #663c1a;
+  --color-primary: #d8d9db;
+  --color-background: #ffffff;
+  --color-accent: rgb(130, 97, 79);
+  --color-foreground: #424242;
+  --color-banner: #d3d3d3;
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
 }
@@ -20,8 +20,12 @@
     @apply cursor-pointer;
   }
 
+  .title {
+    @apply sm:text-2xl text-lg font-serif ml-2;
+  }
+
   .subtitle {
-    @apply text-5xl font-serif mb-10;
+    @apply sm:text-5xl text-4xl font-serif mb-10;
   }
 
   .section {

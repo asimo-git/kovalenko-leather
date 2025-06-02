@@ -8,10 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-4 mb-4">
             <Image src="/logo.png" alt="Логотип" width={50} height={50} />
-            <span className="text-xl font-serif font-bold">
-              Кожаная Мастерская
-              <br /> Павла Коваленко
-            </span>
+            <span className="title">Мастерская Павла Коваленко</span>
           </div>
           <div className="text-center text-xs border-t">
             © {new Date().getFullYear()} Все права защищены.

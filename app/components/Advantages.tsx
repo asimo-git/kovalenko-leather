@@ -1,7 +1,7 @@
 export default function Advantages() {
   return (
     <>
-      <section className="section">
+      <section className="section bg-primary">
         <h2 className="subtitle">Преимущества моей мастерской</h2>
         <ul className="space-y-4 max-w-3xl w-full text-lg list-none">
           {[

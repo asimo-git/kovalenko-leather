@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className="flex mt-25 justify-start items-center">
-        <div className="w-[30vw] h-[30vw] rounded-tr-[80px] rounded-br-[80px] overflow-hidden">
+      <section className="flex my-25 justify-center items-center">
+        <div className="w-[30vw] h-[30vw] overflow-hidden">
           <Image
             src="/foto.jpg"
             alt="фото мастера"

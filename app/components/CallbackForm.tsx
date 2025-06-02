@@ -63,7 +63,11 @@ export default function CallbackForm() {
         />
       </div>
 
-      <Button type="submit" className="w-full" disabled={isSending}>
+      <Button
+        type="submit"
+        className="w-full bg-accent text-background"
+        disabled={isSending}
+      >
         {isSending
           ? "Отправка..."
           : sentSuccessfully
