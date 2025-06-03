@@ -1,4 +1,4 @@
-export const services = [
+export const SERVICES = [
   {
     src: "/2.png",
     alt: "кожаное кресло",
@@ -37,3 +37,31 @@ export const services = [
     ],
   },
 ];
+
+export const CONTACTS = {
+  phone: "+7 (000) 000-00-00",
+  email: "master@leathercraft.ru",
+  social: [
+    {
+      name: "Telegram",
+      href: "https://t.me/your_username",
+      color: "bg-blue-500 hover:bg-blue-600",
+      icon: "/icons/telegram.svg",
+      qr: "/qr-telegram.png",
+    },
+    {
+      name: "Viber",
+      href: "viber://chat?number=+70000000000",
+      icon: "/icons/viber.svg",
+      color: "bg-purple-500 hover:bg-purple-600",
+      qr: "/qr-viber.png",
+    },
+    {
+      name: "WhatsApp",
+      href: "https://wa.me/70000000000",
+      icon: "/icons/whatsapp.svg",
+      color: "bg-green-500 hover:bg-green-600",
+      qr: "/qr-whatsapp.png",
+    },
+  ],
+};

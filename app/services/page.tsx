@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { services } from "../data/data";
+import { SERVICES } from "../data/data";
 
 export default function ServicesPage() {
   return (
     <section className="p-10">
       <h2 className="subtitle">Выберите подходящую услугу</h2>
       <div className="max-w-6xl flex flex-col gap-12">
-        {services.map(({ src, alt, title, text, list }) => (
+        {SERVICES.map(({ src, alt, title, text, list }) => (
           <div
             key={title}
             className="flex flex-col md:flex-row bg-background shadow-lg rounded-2xl overflow-hidden"
