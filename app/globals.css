@@ -25,7 +25,7 @@
   }
 
   .subtitle {
-    @apply sm:text-5xl text-4xl font-serif mb-10;
+    @apply sm:text-5xl text-4xl font-serif mb-10 text-center;
   }
 
   .section {

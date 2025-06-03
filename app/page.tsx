@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Advantages from "./components/Advantages";
 import Contacts from "./components/Contacts";
 import WorkSchem from "./components/WorkScheme";
+import Materials from "./components/Materials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <About />
       <Services />
+      <Materials />
       <WorkSchem />
       <Advantages />
       <Contacts />
