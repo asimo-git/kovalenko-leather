@@ -28,8 +28,10 @@ export default function Services() {
                 />
               </div>
               <CardHeader className="flex-1 px-4">
-                <CardTitle className="text-center text-lg">{title}</CardTitle>
-                <CardDescription className="text-center">
+                <CardTitle className="text-center text-lg md:text-2xl">
+                  {title}
+                </CardTitle>
+                <CardDescription className="text-center text-base md:text-xl">
                   {description}
                 </CardDescription>
               </CardHeader>
