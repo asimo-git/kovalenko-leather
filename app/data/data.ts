@@ -65,3 +65,56 @@ export const CONTACTS = {
     },
   ],
 };
+
+export type PortfolioItem = {
+  title: string;
+  src: string;
+  material: string;
+  time: string;
+  price: string;
+};
+
+export const PORTFOLIO: PortfolioItem[] = [
+  {
+    src: "/exp1.jpg",
+    title: "Подушка с вышивкой",
+    material: "Искусственный мех",
+    time: "3 дня",
+    price: "6 500₽",
+  },
+  {
+    src: "/exp2.jpg",
+    title: "Набор Подушек с вышивкой",
+    material: "Плюш",
+    time: "2 дня",
+    price: "6 500 ₽",
+  },
+  {
+    src: "/exp3.jpg",
+    title: "Автосалон — ?",
+    material: "Кожзам",
+    time: "2 дней",
+    price: "4 000 ₽",
+  },
+  {
+    src: "/exp4.jpg",
+    title: "Подушки декоративные",
+    material: "Плюш",
+    time: "5 день",
+    price: "3 200 ₽",
+  },
+  {
+    src: "/exp5.jpg",
+    title: "Обновление автосалона",
+    material: "Кожзам",
+    time: "4 дня",
+    price: "9 000 ₽",
+  },
+  {
+    src: "/exp6.jpg",
+    title: "Перетяжка кухонного уголка",
+    material: "Флис",
+    time: "3 дня",
+    price: "12 000 ₽",
+  },
+];
