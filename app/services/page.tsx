@@ -6,10 +6,12 @@ export default function ServicesPage() {
     <section className="p-10">
       <h2 className="subtitle">Выберите подходящую услугу</h2>
       <div className="max-w-6xl flex flex-col gap-12">
-        {SERVICES.map(({ src, alt, title, text, list }) => (
+        {SERVICES.map(({ src, alt, title, text, list }, index) => (
           <div
             key={title}
-            className="flex flex-col md:flex-row bg-background shadow-lg rounded-2xl overflow-hidden"
+            className={`flex flex-col md:flex-row bg-background shadow-lg rounded-2xl overflow-hidden ${
+              index % 2 === 1 ? "md:flex-row-reverse" : ""
+            }`}
           >
             {/* Изображение */}
             <div className="relative w-full md:w-1/2 min-h-[300px]">
