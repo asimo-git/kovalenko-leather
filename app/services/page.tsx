@@ -5,7 +5,7 @@ export default function ServicesPage() {
   return (
     <section className="p-10">
       <h2 className="subtitle">Выберите подходящую услугу</h2>
-      <div className="max-w-6xl flex flex-col gap-12">
+      <div className="max-w-6xl flex flex-col gap-12 m-auto">
         {SERVICES.map(({ src, alt, title, text, list }, index) => (
           <div
             key={title}
