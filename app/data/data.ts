@@ -67,6 +67,7 @@ export const CONTACTS = {
 };
 
 export type PortfolioItem = {
+  id: number;
   title: string;
   src: string;
   material: string;
@@ -76,44 +77,66 @@ export type PortfolioItem = {
 
 export const PORTFOLIO: PortfolioItem[] = [
   {
-    src: "/exp1.jpg",
+    id: 0,
+    src: "/examples/exp1.jpg",
     title: "Подушка с вышивкой",
     material: "Искусственный мех",
     time: "3 дня",
     price: "6 500₽",
   },
   {
-    src: "/exp2.jpg",
+    id: 1,
+    src: "/examples/exp2.jpg",
     title: "Набор Подушек с вышивкой",
     material: "Плюш",
     time: "2 дня",
     price: "6 500 ₽",
   },
   {
-    src: "/exp3.jpg",
+    id: 2,
+    src: "/examples/exp3.jpg",
     title: "Автосалон — ?",
     material: "Кожзам",
     time: "2 дней",
     price: "4 000 ₽",
   },
   {
-    src: "/exp4.jpg",
+    id: 3,
+    src: "/examples/exp4.jpg",
     title: "Подушки декоративные",
     material: "Плюш",
     time: "5 день",
     price: "3 200 ₽",
   },
   {
-    src: "/exp5.jpg",
+    id: 4,
+    src: "/examples/exp5.jpg",
     title: "Обновление автосалона",
     material: "Кожзам",
     time: "4 дня",
     price: "9 000 ₽",
   },
   {
-    src: "/exp6.jpg",
+    id: 5,
+    src: "/examples/exp6.jpg",
     title: "Перетяжка кухонного уголка",
     material: "Флис",
+    time: "3 дня",
+    price: "12 000 ₽",
+  },
+  {
+    id: 6,
+    src: "/examples/exp7.jpg",
+    title: "Перетяжка пуфа",
+    material: "Кожзам",
+    time: "3 дня",
+    price: "12 000 ₽",
+  },
+  {
+    id: 7,
+    src: "/examples/exp8.jpg",
+    title: "Перетяжка барного стула",
+    material: "Кожзам",
     time: "3 дня",
     price: "12 000 ₽",
   },
