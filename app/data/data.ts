@@ -39,26 +39,26 @@ export const SERVICES = [
 ];
 
 export const CONTACTS = {
-  phone: "+7 (000) 000-00-00",
-  email: "master@leathercraft.ru",
+  phone: "+7 900 988 1340",
+  email: "https://m.vk.com/id93865103",
   social: [
     {
       name: "Telegram",
-      href: "https://t.me/your_username",
+      href: "https://t.me/Pavel_Kov36",
       color: "bg-blue-500 hover:bg-blue-600",
       icon: "/icons/telegram.svg",
       qr: "/qr-telegram.png",
     },
     {
       name: "Viber",
-      href: "viber://chat?number=+70000000000",
+      href: "viber://chat?number=+79009881340",
       icon: "/icons/viber.svg",
       color: "bg-purple-500 hover:bg-purple-600",
       qr: "/qr-viber.png",
     },
     {
       name: "WhatsApp",
-      href: "https://wa.me/70000000000",
+      href: "https://wa.me/79009881340",
       icon: "/icons/whatsapp.svg",
       color: "bg-green-500 hover:bg-green-600",
       qr: "/qr-whatsapp.png",
