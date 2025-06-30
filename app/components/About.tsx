@@ -5,7 +5,7 @@ export default function About() {
     <section className="section md:flex-row my-12 gap-8">
       <div className="w-full min-w-80 max-w-[300px] md:max-w-[30vw] aspect-square overflow-hidden shadow-md">
         <Image
-          src="/foto.jpg"
+          src="/foto.png"
           alt="фото мастера"
           width={500}
           height={500}

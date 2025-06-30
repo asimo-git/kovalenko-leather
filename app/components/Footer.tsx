@@ -21,7 +21,11 @@ export default function Footer() {
             <Phone size={16} /> {CONTACTS.phone}
           </li>
           <li className="flex items-center justify-center gap-2">
-            <Mail size={16} /> {CONTACTS.email}
+            <Mail size={16} />{" "}
+            <a href={CONTACTS.email} target="_blank">
+              Павел Коваленко в VK
+            </a>
+            {/* <Mail size={16} /> {CONTACTS.email} */}
           </li>
           <li className="flex gap-4 mt-3 justify-center">
             {CONTACTS.social.map(({ name, href, icon }) => (

@@ -13,7 +13,12 @@ export default function Contacts() {
       </p>
 
       <div className="bg-muted/40 p-6 rounded-xl shadow-md w-full max-w-3xl mx-auto text-center space-y-4">
-        <p className="text-2xl font-semibold">+7 (000) 000-00-00</p>
+        <a
+          className="text-2xl font-semibold"
+          href={`tel:${CONTACTS.phone.replace(/\s+/g, "")}`}
+        >
+          {CONTACTS.phone}
+        </a>
 
         <ul className="flex flex-wrap justify-center gap-6">
           {CONTACTS.social.map(({ name, href, color, qr }) => (

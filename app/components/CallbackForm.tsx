@@ -16,7 +16,6 @@ export default function CallbackForm() {
 
     setIsSending(true);
     try {
-      console.log(phone);
       const res = await fetch("/api/sendmessage", {
         method: "POST",
         headers: {

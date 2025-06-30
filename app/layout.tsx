@@ -16,8 +16,8 @@ const serifFont = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Кожаная Мастерская Павла Коваленко",
-  description: "Изделия из кожи, реставрация мебели и автосалона",
+  title: "Мастерская Павла Коваленко",
+  description: "Ручной пошив, реставрация мебели и автосалона",
 };
 
 export default function RootLayout({
