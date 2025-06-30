@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Package, Clock, DollarSign, X } from "lucide-react";
+import { Package, Clock, DollarSign } from "lucide-react";
 import Image from "next/image";
 import { PortfolioItem } from "../data/data";
 import ImageSlider from "./ImageSlider";
